@@ -4,7 +4,7 @@
 ---
 GitHub 
 
-https://github.com/michellsspy/ETL-com-Dataflow-Apache-Beam-BigQuery-e-DBT.git
+https://github.com/michellsspy/process_etl_passo_passo_gcp-dbt.git
 ---
 
 Projeto "ETL com Dataflow, Apache Beam, BigQuery e DBT" organizados para seguir uma lógica de criação e execução de cada etapa do processo de ETL
