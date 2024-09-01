@@ -1,13 +1,14 @@
 # ETL com Dataflow, Apache Beam, BigQuery e DBT
 ## Michel Souza
 > 03/08/2024
----
-GitHub 
 
-https://github.com/michellsspy/process_etl_passo_passo_gcp-dbt.git
+---
+GitHub: [https://github.com/michellsspy/process_etl_passo_passo_gcp-dbt.git](https://github.com/michellsspy/process_etl_passo_passo_gcp-dbt.git)
+
 ---
 
-Projeto "ETL com Dataflow, Apache Beam, BigQuery e DBT" organizados para seguir uma lógica de criação e execução de cada etapa do processo de ETL
+Projeto "ETL com Dataflow, Apache Beam, BigQuery e DBT" organizado para seguir uma lógica de criação e execução de cada etapa do processo de ETL.
+
 ---
 
 ### ETL Ponta a Ponta - Módulo 0: Abertura e Apresentação dos Módulos
@@ -44,73 +45,78 @@ Projeto "ETL com Dataflow, Apache Beam, BigQuery e DBT" organizados para seguir 
 - Introdução ao Secret Manager do GCP.
 - Criando e integrando segredos para armazenar credenciais.
 
-### ETL Ponta a Ponta - Módulo 7: Introdução ao Dataflow
+### ETL Ponta a Ponta - Módulo 7: Introdução ao Pub/Sub e Cloud Functions
+- Configuração e uso do Pub/Sub no fluxo de mensagens entre serviços.
+- Configuração e automação de tarefas com Cloud Functions.
+- Casos de uso: acionar pipelines de dados e automação de tarefas.
+
+### ETL Ponta a Ponta - Módulo 8: Introdução ao Dataflow
 - Introdução ao Dataflow e à sua documentação.
 - Casos de uso e como ele se encaixa no fluxo de ETL.
 
-### ETL Ponta a Ponta - Módulo 8: Introdução ao Apache Beam
+### ETL Ponta a Ponta - Módulo 9: Introdução ao Apache Beam
 - Conhecendo o Apache Beam.
 - Como construir pipelines portáveis com Apache Beam.
 - Casos de uso do Apache Beam no processo de ETL.
 
-### ETL Ponta a Ponta - Módulo 9: Primeiros Passos com Apache Beam e Dataflow
+### ETL Ponta a Ponta - Módulo 10: Primeiros Passos com Apache Beam e Dataflow
 - Configurando seu primeiro pipeline no Dataflow.
 - Recuperando segredos e configurando as opções do pipeline.
 - Criando uma PCollection para ingestão de dados na camada **Landing**.
 
-### ETL Ponta a Ponta - Módulo 10: Implementação das Camadas de Dados
+### ETL Ponta a Ponta - Módulo 11: Implementação das Camadas de Dados
 - Entendendo e implementando as camadas:
   - **Landing**: Armazenamento de dados brutos no GCS.
   - **Bronze**: Dados estruturados, mas ainda não transformados no BigQuery.
   - **Silver**: Dados transformados prontos para análises detalhadas no BigQuery.
   - **Gold**: Dados finais prontos para consumo e visualização no Looker.
 
-### ETL Ponta a Ponta - Módulo 11: Introdução ao DBT
+### ETL Ponta a Ponta - Módulo 12: Introdução ao DBT
 - Conhecendo o DBT e suas funcionalidades.
 - Configurando sua conta no DBT Cloud.
 - Criando os primeiros modelos no DBT para transformação de dados.
 
-### ETL Ponta a Ponta - Módulo 12: Introdução ao BigQuery
+### ETL Ponta a Ponta - Módulo 13: Introdução ao BigQuery
 - Explorando o BigQuery e suas capacidades analíticas.
 - Documentação e casos de uso no contexto de ETL.
 - Configuração inicial de datasets e tabelas.
 
-### ETL Ponta a Ponta - Módulo 13: Pipeline para Camadas Bronze e Silver
+### ETL Ponta a Ponta - Módulo 14: Pipeline para Camadas Bronze e Silver
 - Criando o pipeline de Dataflow para mover dados da camada Landing para Bronze.
 - Usando DBT para transformar dados da camada Bronze para Silver.
 - Implementando boas práticas de codificação e validação.
 
-### ETL Ponta a Ponta - Módulo 14: Modelagem Dimensional na Camada Gold
+### ETL Ponta a Ponta - Módulo 15: Modelagem Dimensional na Camada Gold
 - Introdução ao Star Schema para modelagem dimensional.
 - Criando diagrama das dimensões e tabelas de fatos para relatórios otimizados.
 - Refinamento de dados para a camada Gold.
 
-### ETL Ponta a Ponta - Módulo 15: Transformação e Carregamento de Dados n Camada Gold
+### ETL Ponta a Ponta - Módulo 16: Transformação e Carregamento de Dados na Camada Gold
 - Transformando os dados na camada Silver usando DBT.
 - Carregando os dados transformados para a camada Gold no BigQuery.
 - Integração com o Looker para visualização dos dados.
 
-### ETL Ponta a Ponta - Módulo 16: Performance e Otimização
+### ETL Ponta a Ponta - Módulo 17: Performance e Otimização
 - Otimizando queries no BigQuery para melhorar o desempenho.
 - Estratégias de particionamento e clustering de dados no BigQuery.
 - Boas práticas para otimização de pipelines no Apache Beam e Dataflow.
 
-### ETL Ponta a Ponta - Módulo 17: Visualização e Relatórios Avançados
+### ETL Ponta a Ponta - Módulo 18: Visualização e Relatórios Avançados
 - Criando dashboards interativos e relatórios personalizados no Looker.
 - Integração com outras ferramentas de BI (Power BI, Tableau).
 - Relatórios automatizados e agendamento de insights.
 
-### ETL Ponta a Ponta - Módulo 18: Estudo de Caso Real
+### ETL Ponta a Ponta - Módulo 19: Estudo de Caso Real
 - Implementando um projeto de ETL completo com dados reais ou simulados.
 - Benchmarking e análise de desempenho do pipeline em cenários realistas.
 - Discussão de possíveis problemas reais e soluções no pipeline de ETL.
 
-### ETL Ponta a Ponta - Módulo 19: Monitoramento e Manutenção
+### ETL Ponta a Ponta - Módulo 20: Monitoramento e Manutenção
 - Configurando alertas e monitoramento automático com Cloud Functions.
 - Manutenção preventiva e boas práticas para monitorar o pipeline de ETL.
 - Ajustes para escalar e otimizar o fluxo de dados.
 
-### ETL Ponta a Ponta - Módulo 20: Projetos Práticos e Casos de Uso
+### ETL Ponta a Ponta - Módulo 21: Projetos Práticos e Casos de Uso
 - Implementando um projeto de ETL completo, desde a ingestão até a visualização no Looker.
 - Explorando desafios reais em projetos ETL e suas soluções.
 
